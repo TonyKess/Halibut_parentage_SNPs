@@ -1,0 +1,9 @@
+ ~/Desktop/Software/plink_mac_20200219/plink \
+  --file Halibut_genome2_d15gt90HWE12_NOCHR1518_notGulf \
+  --maf 0.4  \
+  --out Halibut_Atlantic_LE_maf40_midp \ 
+  --allow-extra-chr \
+  --chr-set 24 \
+  --make-bed \
+  --recode \
+  --hwe 0.05 midp
